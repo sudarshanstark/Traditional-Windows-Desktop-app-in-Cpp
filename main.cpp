@@ -97,7 +97,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
       TextOut(hdc,
          5, 5,
          greeting, _tcslen(greeting));
-      // Ending application-specific layout section
 
       EndPaint(hWnd, &ps);
       break;
