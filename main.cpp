@@ -5,7 +5,6 @@
 
 static TCHAR szWindowClass[] = _T("DesktopApp");
 
-// title bar.
 static TCHAR szTitle[] = _T("Windows Desktop Guided Tour App");
 
 HINSTANCE hInst;
@@ -44,7 +43,6 @@ int WINAPI WinMain(
       return 1;
    }
 
-   // storing instance handle in the global variable
    hInst = hInstance;
 
    HWND hWnd = CreateWindowEx(
