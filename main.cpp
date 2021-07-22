@@ -6,7 +6,7 @@
 static TCHAR szWindowClass[] = _T("DesktopApp");
 
 // title bar.
-static TCHAR szTitle[] = _T("Windows Desktop Guided Tour Application");
+static TCHAR szTitle[] = _T("Windows Desktop Guided Tour App");
 
 HINSTANCE hInst;
 
